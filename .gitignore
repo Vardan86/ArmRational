@@ -1,0 +1,10 @@
+
+## Directory-based project format:
+.idea/
+.ipynb_checkpoints/
+/dist/
+/build/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
