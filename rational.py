@@ -66,7 +66,7 @@ class Rational:
     __repr__ = __str__
 
     def __float__(self):
-        pass
+       return self.sign*float(self.n/self.d)
 
 
 if __name__ == '__main__':
